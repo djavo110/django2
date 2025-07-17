@@ -1,6 +1,6 @@
 from django.urls import path
-from . import views
+from  app1.views import index   
 
 urlpatterns = [
-    path('', views.index, name='home'),  # Asosiy sahifa view
+    path('index/', index),  
 ]
